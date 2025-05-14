@@ -1,5 +1,8 @@
 # 🧠 1337 Piscine Preparation Journey
 
+![1337 Piscine Banner](https://sdmntpritalynorth.oaiusercontent.com/files/00000000-d84c-6246-8c03-109ec4b0c1b2/raw?se=2025-05-14T16%3A58%3A53Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=b32d65cd-c8f1-46fb-90df-c208671889d4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-14T07%3A59%3A13Z&ske=2025-05-15T07%3A59%3A13Z&sks=b&skv=2024-08-04&sig=Ri0wLEHUqXKxg5gwZMAIWSWOsLvCUSWDB6LXj28HQ7g%3D)
+
+
 Welcome to my personal repository documenting my journey of preparing for the **1337 Piscine** (42 Network).  
 This repo tracks my **daily progress**, **C programming practice**, and **learning notes**, starting from the **absolute basics** to more **advanced concepts**.
 
