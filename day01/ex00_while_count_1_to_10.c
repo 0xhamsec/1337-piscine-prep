@@ -13,3 +13,15 @@
 /*
 ** Print numbers from 1 to 10 using a while loop.
 */
+
+#include <stdio.h>
+
+int main()
+{
+    int number = 1;
+    while (number <= 10)
+    {
+        printf("%d ",number);
+        number = number + 1;
+    }
+}

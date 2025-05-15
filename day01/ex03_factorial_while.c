@@ -13,3 +13,30 @@
 /*
 ** Ask user for a number and print its factorial using a while loop.
 */
+
+#include <stdio.h>
+
+int main()
+{
+    int number;
+    int count = 1;
+    int factorial = 1;
+
+    printf("Enter a non-negative integer: ");
+    scanf("%d", &number);
+
+    if (number < 0)
+    {
+        printf("Error: Factorial is not defined for negative numbers.\n");
+        return 1; // Return error code
+    }
+
+    while (count <= number)
+    {
+        factorial *= count;
+        count++;
+    }
+
+    printf("The factorial of %d is %d.\n", number, factorial);
+    return 0;
+}
