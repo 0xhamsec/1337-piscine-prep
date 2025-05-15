@@ -19,21 +19,31 @@
 int main()
 {
     int number;
-    int count = 1;
+    int count = 0;
 
-    printf("Enter a Number: ");
-    scanf("%d",&number);
+    printf("Enter a number: ");
+    scanf("%d", &number);
 
-    while (number != 0)
+    // Handle negative numbers
+    if (number < 0)
     {
-        number = number / 10 ;
+        number = -number;  // Manual absolute value
+    }
 
-        if (number != 0)
+    // Handle zero explicitly
+    if (number == 0)
+    {
+        count = 1;
+    }
+    else
+    {
+        while (number != 0)
         {
-            count = count + 1;
+            number = number / 10;
+            count++;
         }
     }
 
-    printf("the number has %d digits \n",count);
-
+    printf("The number has %d digit(s).\n", count);
+    return 0;
 }
