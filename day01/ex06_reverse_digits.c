@@ -13,3 +13,31 @@
 /*
 ** Ask user to enter a number and print its digits in reverse order using while loop.
 */
+
+#include <stdio.h>
+
+int main() {
+    int num, digit;
+
+    // Ask user to enter a number
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    printf("Digits in reverse order: ");
+
+    // Handle the case when number is 0
+    if (num == 0) {
+        printf("0");
+    }
+
+    // Print digits in reverse order
+    while (num != 0) { // 123
+        digit = num % 10; 
+        printf("%d", digit);  
+        num = num / 10;       
+    }
+
+    printf("\n");
+
+    return 0;
+}
