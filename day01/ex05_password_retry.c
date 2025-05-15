@@ -14,3 +14,26 @@
 ** Ask user to enter the correct password. Repeat until correct using do while.
 ** Example password: 1337
 */
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char password[5];
+    do
+    {
+        printf("Please Enter the correct password: ");
+        scanf("%s",password);
+
+    } while (strcmp(password,"1337") != 0);
+
+    printf("=====================================\n");
+    printf("=                                   =\n");
+    printf("=         ACCESS GRANTED            =\n");
+    printf("=       Welcome to the System       =\n");
+    printf("=                                   =\n");
+    printf("=====================================\n");
+    
+    return 0;
+}

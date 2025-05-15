@@ -13,3 +13,27 @@
 /*
 ** Ask the user to input a number. Count how many digits it has using a while loop.
 */
+
+#include <stdio.h>
+
+int main()
+{
+    int number;
+    int count = 1;
+
+    printf("Enter a Number: ");
+    scanf("%d",&number);
+
+    while (number != 0)
+    {
+        number = number / 10 ;
+
+        if (number != 0)
+        {
+            count = count + 1;
+        }
+    }
+
+    printf("the number has %d digits \n",count);
+
+}
