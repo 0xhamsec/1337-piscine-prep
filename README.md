@@ -9,7 +9,7 @@ This repo tracks my **daily progress**, **C programming practice**, and **learni
 
 | Day    | Focus Area                   | Topics/Goals Covered                         |
 |--------|------------------------------|----------------------------------------------|
-| Day 00 | C Basics + If Statements     | Variables, data types, `if`, `else`, `printf` |
+| Day 00[X]| C Basics + If Statements     | Variables, data types, `if`, `else`, `printf` |
 | Day 01 | Loops in C                   | `while`, `for`, nested loops, `break`, `continue` |
 | Day 02 | Functions in C               | Declaring, defining, and using functions     |
 | Day 03 | Pointers & Arrays            | Pointers, memory addresses, 1D arrays        |
