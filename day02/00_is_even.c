@@ -13,3 +13,25 @@
 /*     Returns 1 if the number is even, 0 otherwise.                          */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
+
+int ft_is_even(int n)
+{
+    if (n % 2 == 0)
+    {
+        return 1;
+    }
+    else
+        return 0;
+}
+
+int main()
+{
+    int number;
+
+    printf("Number: ");
+    scanf("%d",&number);
+    int res = ft_is_even(number);
+    printf("%d",res);
+}
