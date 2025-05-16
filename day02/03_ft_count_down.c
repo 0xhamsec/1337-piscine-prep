@@ -31,6 +31,7 @@ void    ft_count_down(int n)
     while (n >= 0)
     {
         print_number(n);
+        write(1," ",1);
         n = n - 1;
     }
 }
