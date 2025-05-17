@@ -13,3 +13,17 @@
 /*     Example: 5! = 5 * 4 * 3 * 2 * 1 = 120                                  */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
+
+int ft_factorial(int number)
+{
+    if (number == 0)
+        return 1;
+    return number * ft_factorial(number - 1);
+}
+
+int main()
+{
+    printf(" %d ",ft_factorial(5));
+}
