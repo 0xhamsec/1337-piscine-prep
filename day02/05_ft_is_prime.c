@@ -13,3 +13,26 @@
 /*     Returns 1 if prime, 0 otherwise.                                      */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
+int ft_is_prime(int number)
+{
+    int i;
+
+    if (number <= 1)
+        return 0; // 0 and 1 are not prime numbers
+
+    i = 2;
+    while (i * i <= number)
+    {
+        if (number % i == 0)
+            return 0; // Not prime
+        i++;
+    }
+    return 1; // Prime
+}
+
+int main()
+{
+    printf(" %d ",ft_is_prime(7));
+}
